@@ -7,14 +7,13 @@ public class User {
     private String email;
     private String phoneNumber;
 
-    // Constructor
+
     public User(String username, String email, String phoneNumber) {
         this.username = username;
         this.email = email;
         this.phoneNumber = phoneNumber;
     }
 
-    // Getters and Setters
     public String getUsername() {
         return username;
     }

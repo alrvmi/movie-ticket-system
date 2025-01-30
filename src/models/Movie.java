@@ -5,10 +5,10 @@ import java.util.Objects;
 public class Movie {
     private String title;
     private String genre;
-    private int duration; // in minutes
+    private int duration;
     private String releaseDate;
 
-    // Constructor
+
     public Movie(String title, String genre, int duration, String releaseDate) {
         this.title = title;
         this.genre = genre;
@@ -16,7 +16,7 @@ public class Movie {
         this.releaseDate = releaseDate;
     }
 
-    // Getters and Setters
+
     public String getTitle() {
         return title;
     }

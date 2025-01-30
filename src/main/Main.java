@@ -10,7 +10,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         DatabaseService databaseService = null;
         try {
-            // Establish database connection
+
             databaseService = new DatabaseService("jdbc:postgresql://localhost:5432/moviedb", "postgres", "qwe123");
 
             boolean running = true;
@@ -23,7 +23,7 @@ public class Main {
                 System.out.println("5. Exit");
 
                 int choice = scanner.nextInt();
-                scanner.nextLine(); // consume newline
+                scanner.nextLine();
 
                 switch (choice) {
                     case 1:

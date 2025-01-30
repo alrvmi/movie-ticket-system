@@ -7,14 +7,14 @@ public class Ticket {
     private String seatNumber;
     private double price;
 
-    // Constructor
+
     public Ticket(String movieTitle, String seatNumber, double price) {
         this.movieTitle = movieTitle;
         this.seatNumber = seatNumber;
         this.price = price;
     }
 
-    // Getters and Setters
+
     public String getMovieTitle() {
         return movieTitle;
     }
